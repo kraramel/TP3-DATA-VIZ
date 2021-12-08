@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8" />
+          <script src="https://d3js.org/d3.v7.min.js"></script>
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP 3 Data Viz</title>
+    </head>
+    <style>
+        .province {
+            fill: #000;
+            stroke: #fff;
+            stroke-width: 1px;
+        }
+        .province:hover {   
+            fill: #666;
+        }
+        .hidden {
+            display: none;
+        }
+        div.tooltip {
+            color: #222;
+            background-color: #fff;
+            padding: .5em;
+            text-shadow: #f5f5f5 0 1px 0;
+            border-radius: 2px;
+            opacity: 0.9;
+            position: absolute;
+        }
+    </style>
+    <body>
+        <div  id="divSlider">
+            <input id="slider" type="range" value="0" min="0" max="178" step="1" /><br/>
+            <span id="day">day</span>
+          </div>           
+    </body>
+    <!-- <script type="text/javascript" src ="./partie1.js"></script> -->
+    <script type="text/javascript" src ="./partie2.js"></script>
+</html>
